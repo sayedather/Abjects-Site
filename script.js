@@ -11,7 +11,7 @@ var Terminal = Terminal || function(cmdLineContainer, outputContainer) {
   var output_ = document.querySelector(outputContainer);
 
   const CMDS_ = [
-     'clear', 'clock', 'date', 'echo', 'help', 'uname', 'connect', 'faq'
+     'clear', 'clock', 'date', 'echo', 'help', 'uname', 'connect', 'faq', 'daniel'
   ];
   
   var fs_ = null;
@@ -118,9 +118,11 @@ var Terminal = Terminal || function(cmdLineContainer, outputContainer) {
         case 'connect':
           output('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse semper ullamcorper elit, id viverra nisi porttitor vel. Aliquam eu cursus felis, non accumsan lacus. Aenean quis hendrerit ante. Quisque dapibus dui eu risus condimentum imperdiet. Suspendisse non lacus a tortor lobortis tristique. Donec ac velit nisi. Aliquam mattis tempor ex, sed efficitur arcu ultricies a. Fusce nulla odio, scelerisque eget ornare et, tristique sit amet nibh. Quisque auctor velit arcu, id luctus ligula egestas et. Mauris congue, dui posuere tristique mattis, mauris dolor ultricies mi, sit amet porttitor mi massa sed mi. Etiam dapibus vehicula nisi sit amet fringilla. Pellentesque placerat velit sed scelerisque luctus. Pellentesque posuere tellus vel lacus sollicitudin, sed lobortis velit tristique. Praesent eu justo rutrum, rutrum mi sed, lobortis dolor. Sed id efficitur lacus.' + ('<br><br>') + 'Donec ut arcu quis elit molestie tempor. Fusce pellentesque scelerisque elit, non elementum dui. Donec convallis erat sit amet convallis mollis. Donec quis augue scelerisque, congue quam id, tristique nulla. Sed ullamcorper ultricies dictum. Phasellus ornare ut augue et malesuada. Morbi et nisi eleifend, fermentum leo in, finibus velit. Vivamus interdum dui quis tellus tempus tincidunt. Mauris at molestie massa. Curabitur egestas elit nec egestas tempor. Vestibulum in nisi ut ex interdum.');
           break;
-		  
-		  case 'faq':
+	case 'faq':
           output('<h2>What is abjects</h2>Abjects is an IRC Network<h2>What is irc?</h2>internet relay chat<h2>WHo runs the network</h2>Spiders');
+          break;
+	case 'daniel':
+          output('hail hitler');
           break;
     
       };
