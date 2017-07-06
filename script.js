@@ -6,7 +6,7 @@
   
   
   
-      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="style.css">
 
   
 </head>
@@ -30,7 +30,7 @@
     
   
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script src="js/script.js"></script>
+    <script src="script.js"></script>
     
     <div class="clock-container">
       <svg viewBox="0 0 100 100">
@@ -46,7 +46,7 @@
   </body>
 </html>
   
-    <script src="js/index.js"></script>
+    <script src="index.js"></script>
 
 </body>
 </html>
